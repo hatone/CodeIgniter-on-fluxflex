@@ -39,7 +39,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://DUMMY_PROJECT_NAME.fluxflex.com/';
 
 /*
 |--------------------------------------------------------------------------

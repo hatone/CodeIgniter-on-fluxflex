@@ -1,2 +1,16 @@
+#########################################
+#
+# fluxflex configuration for CodeIgniter
+#
+#########################################
+
+## Replace
+[replace]
+application/config/config.php DUMMY_PROJECT_NAME PROJECT_NAME
+application/config/database.php DUMMY_PROJECT_NAME PROJECT_NAME
+application/config/database.php DUMMY_DB_HOST DB_HOST
+application/config/database.php DUMMY_DB_PASSWORD DB_PASSWORD
+
+## Setup
 [setup]
 ln -s . public_html
